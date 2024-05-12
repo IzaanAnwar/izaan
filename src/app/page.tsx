@@ -9,9 +9,10 @@ export default function Home() {
         <div className="space-y-6 font-medium text-xl">
           <h5 className="text-6xl font-black">Izaan</h5>
           <p>
-            I&apos;m a creative <strong>engineer</strong> who builds delightful
-            web experiences. I can advise your company about the web platform,
-            performance, creative user interactions, and usable machine learning
+            I&apos;m a creative <strong className="">engineer</strong> who
+            builds delightful web experiences. I work with web agencies,
+            companies, startups and individuals to create a blueprint for the
+            digital business.
           </p>
           <p></p>
         </div>
@@ -28,14 +29,20 @@ export default function Home() {
       </div>
       <div className="font-medium text-xl">
         <p>
-          I've just ended an 8 year stint as a Senior Engineer at Google, where
-          I worked on making music and art and all sorts of creative
-          interactions with Machine Learning, web components and web standards,
-          and the guts of Chromium. You can read a bit more about me and my past
-          work. Most of my personal code is on GitHub or on Glitch. I am
-          available for freelance work in a consulting capacity, or as a tech
-          advisor. If you would like to get in touch with me about working with
-          you, email me and we'll chat!
+          Originally immersed in commerce and business studies, I took a leap
+          into the world of engineering two years ago, and I haven't looked back
+          since. You can read a bit more about me and my past work. Most of my
+          personal code is on <strong className="text-[#e9ce2c]">GitHub</strong>
+          . I am available for freelance work as your tech collaborator and
+          product builder.If you would like to get in touch with me about
+          working with you,{" "}
+          <Link
+            className="text-xl text-[#e9ce2c] underline hover:cursor-pointer"
+            href="mailto:mdizaan67@gmail.com"
+          >
+            email
+          </Link>{" "}
+          me and we&apos;ll chat!
         </p>
       </div>
       <div className="space-y-8">
