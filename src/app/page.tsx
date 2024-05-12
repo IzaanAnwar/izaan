@@ -30,12 +30,12 @@ export default function Home() {
       <div className="font-medium text-xl">
         <p>
           Originally immersed in commerce and business studies, I took a leap
-          into the world of engineering two years ago, and I haven't looked back
-          since. You can read a bit more about me and my past work. Most of my
-          personal code is on <strong className="text-[#e9ce2c]">GitHub</strong>
-          . I am available for freelance work as your tech collaborator and
-          product builder.If you would like to get in touch with me about
-          working with you,{" "}
+          into the world of engineering two years ago, and I haven&apos;t looked
+          back since. You can read a bit more about me and my past work. Most of
+          my personal code is on{" "}
+          <strong className="text-[#e9ce2c]">GitHub</strong>. I am available for
+          freelance work as your tech collaborator and product builder.If you
+          would like to get in touch with me about working with you,{" "}
           <Link
             className="text-xl text-[#e9ce2c] underline hover:cursor-pointer"
             href="mailto:mdizaan67@gmail.com"
