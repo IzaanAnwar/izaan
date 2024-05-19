@@ -8,7 +8,9 @@ export const TopBar = () => {
       <Link className="text-black text-lg" href="/projects">
         projects
       </Link>
-      <Link className="text-black text-lg">hire me</Link>
+      <Link className="text-black text-lg"
+        href="mailto:mdizaan67@gmail.com"
+      >hire me</Link>
       <Link className="text-black text-lg">socials</Link>
     </nav>
   );

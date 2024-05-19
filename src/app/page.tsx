@@ -22,7 +22,7 @@ export default function Home() {
             width={300}
             height={200}
             alt="NextUI Fruit Image with Zoom"
-            src="https://app.requestly.io/delay/1000/https://nextui-docs-v2.vercel.app/images/fruit-4.jpeg"
+            src="https://avatars.githubusercontent.com/u/99073963?v=4"
             fallbackSrc="https://via.placeholder.com/300x200"
           />
         </div>
