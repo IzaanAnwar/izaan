@@ -33,7 +33,9 @@ export default function Home() {
           into the world of engineering two years ago, and I haven&apos;t looked
           back since. You can read a bit more about me and my past work. Most of
           my personal code is on{" "}
-          <strong className="text-[#e9ce2c]">GitHub</strong>. I am available for
+          <Link href="https://github.com/IzaanAnwar" target="_blank">
+
+            <strong className="text-[#e9ce2c] text-xl">GitHub</strong></Link>. I am available for
           freelance work as your tech collaborator and product builder.If you
           would like to get in touch with me about working with you,{" "}
           <Link
@@ -52,7 +54,7 @@ export default function Home() {
             galzzy
           </CardHeader>
           <CardBody className="text-xl font-medium">
-            <code>(Work in progress)</code>
+            <code>(Being remade)</code>
             Galzzy is my innovative platform designed for YouTube creators and
             editors alike. By seamlessly linking accounts, creators can invite
             editors to collaborate on video projects. After reviewing and
