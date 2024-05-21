@@ -4,7 +4,7 @@ import { Image } from "@nextui-org/image";
 import { Link } from "@nextui-org/link";
 export default function Home() {
   return (
-    <main className="px-2 md:px-56 lg:px-96 space-y-24 py-24 scroll-smooth">
+    <main className="px-4 md:px-56 lg:px-96 space-y-24 py-24 scroll-smooth">
       <div className="grid md:grid-cols-2 gap-4">
         <div className="space-y-6 font-medium text-xl">
           <h5 className="text-6xl font-black">Izaan</h5>
@@ -31,13 +31,13 @@ export default function Home() {
         <p>
           Originally immersed in commerce and business studies, I took a leap
           into the world of engineering two years ago, and I haven&apos;t looked
-          back since. You can read a bit more about me and my past work. Most of
-          my personal code is on{" "}
+          back since. Most of my personal code is on{" "}
           <Link href="https://github.com/IzaanAnwar" target="_blank">
-
-            <strong className="text-[#e9ce2c] text-xl">GitHub</strong></Link>. I am available for
-          freelance work as your tech collaborator and product builder.If you
-          would like to get in touch with me about working with you,{" "}
+            <strong className="text-[#e9ce2c] text-xl">GitHub</strong>
+          </Link>
+          . I am available for freelance work as your tech collaborator and
+          product builder.If you would like to get in touch with me about
+          working with you,{" "}
           <Link
             className="text-xl text-[#e9ce2c] underline hover:cursor-pointer"
             href="mailto:mdizaan67@gmail.com"

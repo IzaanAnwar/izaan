@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Projects() {
   return (
-    <main className="px-2 md:px-56 lg:px-96 space-y-24 py-24 scroll-smooth">
+    <main className="px-4 md:px-56 lg:px-96 space-y-24 py-24 scroll-smooth">
       <h5 className="text-4xl font-bold">projects </h5>
       <div className="flex justify-between items-center gap-4 text-xl font-medium">
         <Link href="#" className="text-2xl font-bold text-[#e9ce2c]">
