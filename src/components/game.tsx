@@ -11,6 +11,7 @@ export function SnakeGame() {
   const [direction, setDirection] = useState("RIGHT");
   const [isGameOver, setIsGameOver] = useState(false);
   const [firstGame, setIsFirstGame] = useState(true);
+  const [start, setStart] = useState(false);
 
   useEffect(() => {
     const handleKeyPress = (event: KeyboardEvent) => {
@@ -121,8 +122,8 @@ export function SnakeGame() {
               isFood ? "food" : ""
             }`}
             style={{
-              width: `${CELL_SIZE}px`,
-              height: `${CELL_SIZE}px`,
+              width: `${CELL_SIZE / 2}px`,
+              height: `${CELL_SIZE / 2}/px`,
             }}
           />
         );
@@ -136,6 +137,7 @@ export function SnakeGame() {
     setDirection("RIGHT");
     setIsGameOver(false);
     setIsFirstGame(false);
+    setStart(true);
   };
 
   const restartGame = () => {
@@ -144,17 +146,29 @@ export function SnakeGame() {
     setDirection("RIGHT");
     setIsGameOver(false);
     setIsFirstGame(false);
+    setStart(true);
   };
 
   return (
     <div className="snake-game-container">
       {isGameOver ? (
-        <div className="button-container flex justify-center items-center relative">
-          {!firstGame && <button onClick={restartGame}>Restart</button>}
-          {firstGame && <button onClick={startGame}>Start</button>}
+        <div className="flex justify-center w-full h-full items-center relative">
+          {!firstGame && (
+            <div className="text-center text-red-500 font-serif">
+              <p>Game Over</p>
+              <button className="win98-button" onClick={restartGame}>
+                Restart
+              </button>
+            </div>
+          )}
+          {firstGame && (
+            <button className="win98-button" onClick={startGame}>
+              Start
+            </button>
+          )}
         </div>
       ) : (
-        <div className="snake-game">{renderGrid()}</div>
+        start && <div className="snake-game">{renderGrid()}</div>
       )}
     </div>
   );

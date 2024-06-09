@@ -3,7 +3,7 @@ export default function Projects() {
     <main className="px-4 md:px-56 lg:px-96 space-y-24 py-24 scroll-smooth">
       <h5 className="text-4xl font-bold">projects </h5>
       <div className="project-item">
-        <a href="#" className="project-link">
+        <a href="https://galzzy.com" target="_blank" className="project-link">
           galzzy
         </a>
         <span className="project-description">
@@ -66,6 +66,32 @@ export default function Projects() {
         <span className="project-description">
           <span className="arrow">&#9654;</span>
           <p>mongo db indexes based anime recommendations</p>
+        </span>
+      </div>
+      <div className="project-item">
+        <a
+          target="_blank"
+          href="https://mujtama.vercel.app"
+          className="project-link"
+        >
+          mujtama
+        </a>
+        <span className="project-description">
+          <span className="arrow">&#9654;</span>
+          <p>basic group chat and event app</p>
+        </span>
+      </div>
+      <div className="project-item">
+        <a
+          target="_blank"
+          href="https://mujtama.vercel.app"
+          className="project-link"
+        >
+          iitj website
+        </a>
+        <span className="project-description">
+          <span className="arrow">&#9654;</span>
+          <p>cms website for iitj</p>
         </span>
       </div>
       <p>and some small projects not worth sharing...</p>

@@ -1,4 +1,5 @@
-import { SnakeGame } from "@/components/image-switcher";
+import { SnakeGame } from "@/components/game";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -13,9 +14,19 @@ export default function Home() {
             digital business.
           </p>
         </div>
-        {/* <div className="snake-game-container"> */}
-        <SnakeGame />
-        {/* </div> */}
+
+        <div className="hidden lg:block">
+          <SnakeGame />
+        </div>
+        <div className="w-full h-full overflow-clip   lg:hidden">
+          <Image
+            width={250}
+            height={250}
+            className="win98-image"
+            alt="NextUI Fruit Image with Zoom"
+            src="https://avatars.githubusercontent.com/u/99073963?v=4"
+          />
+        </div>
       </div>
       <div className="font-medium text-xl">
         <p>
@@ -58,11 +69,13 @@ export default function Home() {
         </div>
         <div className="card">
           <div className="card-header">
-            <h3 className="text-3xl font-bold text-white">mujtama</h3>
+            <h3 className="text-3xl font-bold text-white">bookings crdsi</h3>
           </div>
           <div className="card-body text-xl font-medium">
-            This is a basic group chat app and one of the very first project
-            that I built and that is the reason for it being on the home page.
+            Made an equipment management and booking platform for IIT jodhpur.
+            This is one of my few apps that is being used heavily and by a large
+            amount of users, and it stands there unfazed handling all the
+            operations.
           </div>
           <div className="card-footer">
             <a

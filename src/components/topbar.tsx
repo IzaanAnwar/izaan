@@ -1,6 +1,6 @@
 export const TopBar = () => {
   return (
-    <nav className="topbar px-2 md:px-56 lg:px-96 py-8">
+    <nav className="topbar px md:px-56 lg:px-96 py-8">
       <a className="nav-link" href="/">
         about me
       </a>
@@ -10,8 +10,11 @@ export const TopBar = () => {
       <a className="nav-link" href="mailto:mdizaan67@gmail.com">
         hire me
       </a>
-      <a className="nav-link" href="/projects">
-        socials
+      <a
+        className="nav-link"
+        href="/https://www.linkedin.com/in/izaan-anwar-a00721242/"
+      >
+        linkedin
       </a>
     </nav>
   );
