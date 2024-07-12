@@ -63,9 +63,15 @@ export default function Home() {
             platform. Simplify your workflow, enhance collaboration, and elevate
             your content with ease.
           </div>
-          <div className="card-footer">
-            <button className="win98-button">see the hype</button>
+                  <div className="card-footer">
+            <a
+              className="win98-button"
+              href="https://galzzy.com"
+              target="_blank"
+            >see the hype
+            </a>
           </div>
+
         </div>
         <div className="card">
           <div className="card-header">
