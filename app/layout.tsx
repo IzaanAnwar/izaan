@@ -16,13 +16,7 @@ export const metadata: Metadata = {
       "Founder of galzzy.com and Software Engineer",
     url: "https://izaan.vercel.app",
     siteName: "izaan.vercel.app",
-    images: [
-      {
-        url: "https://chronark.com/og.png",
-        width: 1920,
-        height: 1080,
-      },
-    ],
+    
     locale: "en-US",
     type: "website",
   },
@@ -38,7 +32,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Chronark",
+    title: "Izaan",
     card: "summary_large_image",
   },
   icons: {
